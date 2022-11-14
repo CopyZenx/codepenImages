@@ -1,0 +1,28 @@
+﻿<Window x:Class="AryasoftHealthChecks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AryasoftHealthChecks"
+        mc:Ignorable="d"
+        Title="AryaSoft Health Checks" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="computerTextBox" HorizontalAlignment="Left" Margin="176,30,0,0" TextWrapping="Wrap" Text="ComputerName" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="instanceTextBox" HorizontalAlignment="Left" Margin="176,70,0,0" TextWrapping="Wrap" Text="InstanceName" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="usernameTextBox" HorizontalAlignment="Left" Margin="176,120,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox  x:Name="passwordTextBox" HorizontalAlignment="Left" Margin="176,160,0,0" Password="" PasswordChar="*"  VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="computerLabel" Content="Computer Name:" HorizontalAlignment="Left" Margin="57,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="instanceLabel" Content="Instance Name" HorizontalAlignment="Left" Margin="57,68,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.204,0.154"/>
+        <Label x:Name="usernameLabel" Content="User Name:" HorizontalAlignment="Left" Margin="57,111,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="passwordLabel" Content="Password" HorizontalAlignment="Left" Margin="57,154,0,0" VerticalAlignment="Top"/>
+		<Label x:Name="finishLabel" Content="" HorizontalAlignment="Left" Margin="57,254,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="computerChecktBox" Content="Local Computer?" HorizontalAlignment="Left" Margin="347,31,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="instanceChecktBox" Content="Default Instance?" HorizontalAlignment="Left" Margin="347,73,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="usernameChecktBox" Content="Windows User?" HorizontalAlignment="Left" Margin="347,117,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="startButton" Content="Start Health Checks" HorizontalAlignment="Left" Margin="476,352,0,0" VerticalAlignment="Top" Width="141"/>
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="650,352,0,0" VerticalAlignment="Top" IsCancel="True" Width="89"/>
+		<Image x:Name="image" HorizontalAlignment="Left" Height="161" Margin="476,26,0,0" VerticalAlignment="Top" Width="263" Source="https://raw.githubusercontent.com/CopyZenx/codepenImages/main/icon.PNG"/>
+		
+
+    </Grid>
+</Window>
