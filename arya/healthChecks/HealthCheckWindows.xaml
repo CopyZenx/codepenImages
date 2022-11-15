@@ -21,7 +21,7 @@
         <CheckBox x:Name="usernameChecktBox" Content="Windows User?" HorizontalAlignment="Left" Margin="347,117,0,0" VerticalAlignment="Top"/>
         <Button x:Name="startButton" Content="Start Health Checks" HorizontalAlignment="Left" Margin="476,352,0,0" VerticalAlignment="Top" Width="141"/>
         <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="650,352,0,0" VerticalAlignment="Top" IsCancel="True" Width="89"/>
-	<Image x:Name="image" HorizontalAlignment="Left" Height="161" Margin="476,26,0,0" VerticalAlignment="Top" Width="263" Source="C:\temp\aryasoftHealthChecks\icon.PNG"/>
+	<Image x:Name="image" HorizontalAlignment="Left" Height="161" Margin="476,26,0,0" VerticalAlignment="Top" Width="263" Source="https://raw.githubusercontent.com/CopyZenx/codepenImages/main/arya/healthChecks/icon.PNG"/>
 		
 
     </Grid>
